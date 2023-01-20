@@ -5,7 +5,7 @@ import App from './App';
 
 function Loading() {
     return <h2>🌀 Loading...</h2>;
-  }
+}
 
 ReactDOM.render(
     <React.StrictMode>
@@ -15,3 +15,13 @@ ReactDOM.render(
     </React.StrictMode>
     
 ,document.getElementById('root'));
+
+// Example consoleLog
+console.log(window.navigator.userAgent);
+
+const arr1 = ['H', 'E', 'L'];
+const arr2 = ['L', 'O', 'T', 'O', 'J', 'O', 'I', 'N'];
+
+const arr3 = arr1.concat(arr2);
+
+console.log(arr3);
