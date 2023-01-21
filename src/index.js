@@ -25,3 +25,5 @@ const arr2 = ['L', 'O', 'T', 'O', 'J', 'O', 'I', 'N'];
 const arr3 = arr1.concat(arr2);
 
 console.log(arr3);
+
+console.log(`Your browser version is reported as ${navigator.appVersion}`);
