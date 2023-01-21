@@ -25,7 +25,7 @@ const Header = ({ onPlaceChanged, onLoad }) => {
                       <SearchIcon />
                     </div>
                     <InputBase 
-                      placeholder="Search…" 
+                      placeholder="Search a place…" 
                       classes={{ root: classes.inputRoot, 
                       input: classes.inputInput }} 
                     />
