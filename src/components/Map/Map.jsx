@@ -25,7 +25,7 @@ const Map = () => {
           }}
         
         >
-
+          
         </GoogleMapReact>
       </div>
     </>
